@@ -46,7 +46,6 @@ console.log(val);
 // Activity Five : Understanding const
 
 // --> Task - 6 <--
-
 const username = "anya";
 username = "rohya";
 console.log(username);
