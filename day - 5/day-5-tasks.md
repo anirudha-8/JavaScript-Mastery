@@ -29,11 +29,11 @@
 
 ## Feature Request
 
-1. Even or Odd Function Script: Write a script that includes a function to check if a number is even or odd and log the result.
-2. Square Calculation Function Script: Create a script that includes a function to calculate the square of a number and returns the result.
-3. Concatenation Function Script: Write a script that includes a function expression to concatenate two strings and returns the result.
-4. Sum Calculation Arrow Function Script: Create a script that includes an arrow function to calculate the sum of two numbers and return the result.
-5. Higher-Order Function Script: Write a script that includes a higher-order function to apply a given function multiple times.
+1. **Even or Odd Function Script**: Write a script that includes a function to check if a number is even or odd and log the result.
+2. **Square Calculation Function Script**: Create a script that includes a function to calculate the square of a number and returns the result.
+3. **Concatenation Function Script**: Write a script that includes a function expression to concatenate two strings and returns the result.
+4. **Sum Calculation Arrow Function Script**: Create a script that includes an arrow function to calculate the sum of two numbers and return the result.
+5. **Higher-Order Function Script**: Write a script that includes a higher-order function to apply a given function multiple times.
 
 ## Achievements
 

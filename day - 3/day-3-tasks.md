@@ -27,11 +27,11 @@
 
 ## Feature Request
 
-1. Number Check Script: Write a script that checks if a number is positive, negative, or zero using if-else statements and log the result.
-2. Voting Eligibility Script: Create a script to check if a person is eligible to vote based on their age and log the result.
-3. Day of the Week Script: Write a script that uses a switch case to determine the day of the week based on the number (1 - 7) and log the day name.
-4. Grade Assignment Script: Write a script that uses a switch case to assign the grade based on the score and log the grade.
-5. Leap Year Check Script: Write a script that checks if a year is a leap year using multiple conditions and log the result.
+1. **Number Check Script**: Write a script that checks if a number is positive, negative, or zero using if-else statements and log the result.
+2. **Voting Eligibility Script**: Create a script to check if a person is eligible to vote based on their age and log the result.
+3. **Day of the Week Script**: Write a script that uses a switch case to determine the day of the week based on the number (1 - 7) and log the day name.
+4. **Grade Assignment Script**: Write a script that uses a switch case to assign the grade based on the score and log the grade.
+5. **Leap Year Check Script**: Write a script that checks if a year is a leap year using multiple conditions and log the result.
 
 ## Achievements
 
