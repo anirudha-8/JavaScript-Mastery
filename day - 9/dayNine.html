@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Day - 9 Tasks</title>
+		<style>
+			.hoverMe {
+				width: 20rem;
+				height: 20rem;
+				background-color: bisque;
+				margin: 1rem;
+				padding: 1rem;
+				border: 6px solid red;
+				border-radius: 1rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				cursor: pointer;
+			}
+			.toggleImage {
+				display: none;
+			}
+			button {
+				display: block;
+				margin: 2rem 0;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul class="navbar">
+				<li>Home</li>
+				<li>About</li>
+				<li>Contact</li>
+				<li id="removedElement">Removed Element</li>
+			</ul>
+		</nav>
+		<section class="first">
+			<h1 id="title">Day Nine Tasks</h1>
+			<p class="change">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+				asperiores labore, nam reiciendis minus optio.
+			</p>
+			<button class="btn">Change Text</button>
+			<div class="hoverMe">HOVER ME, TO CHANGE THE BORDER COLOR</div>
+		</section>
+		<button class="hide">Click me to Show / Hide Image</button>
+		<img class="jsImage" src="" alt="javascript image" />
+
+		<script src="./dayNineSolutions.js"></script>
+	</body>
+</html>
