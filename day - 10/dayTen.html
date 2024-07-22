@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Day - 10 Tasks</title>
+		<link rel="stylesheet" href="./dayTen.css" />
+	</head>
+	<body>
+		<main>
+			<nav>
+				<ul>
+					<li><a href="#one">Activity-1</a></li>
+					<li><a href="#two">Activity-2</a></li>
+					<li><a href="#three">Activity-3</a></li>
+					<li><a href="#four">Activity-4</a></li>
+					<li><a href="#five">Activity-5</a></li>
+				</ul>
+			</nav>
+			<section id="one" class="activity">
+				<h2>Activity-1</h2>
+				<div class="task1">
+					<p class="taskOnePara">
+						Task 1: Add a click event listener to a button that changes the text
+						content of a paragraph.
+					</p>
+					<button id="taskOneChange" class="btn">Click To Change</button>
+				</div>
+				<hr />
+				<div class="task2">
+					<p>
+						Task 2: Add a double-click event listener to an image that toggles
+						its visibility.
+					</p>
+					<div class="imgContainer">
+						<img class="taskOneImg" src="./image.png" alt="naruto image" />
+					</div>
+				</div>
+			</section>
+
+			<section id="two" class="activity">
+				<h2>Activity-2</h2>
+				<div class="task3">
+					<p>
+						Task 3: Add a mouseover event listener to an element that changes
+						its background color.
+					</p>
+				</div>
+				<hr />
+				<div class="task4">
+					<p>
+						Task 4: Add a mouseout event listener to an element that resets its
+						background color.
+					</p>
+				</div>
+				<div class="taskTwoDiv">Mouse over to change the color</div>
+			</section>
+
+			<section id="three" class="activity">
+				<h2>Activity-3</h2>
+				<div class="task5">
+					<p>
+						Task 5: Add a keydown event listener to an input field that logs the
+						key pressed to the console.
+					</p>
+				</div>
+				<hr />
+				<div class="task6">
+					<p>
+						Task 6: Add a keyup event listener to an input field that displays
+						the current value in a paragraph.
+					</p>
+				</div>
+				<div class="actThree">
+					<input type="text" name="activityThree" id="activityThree" />
+				</div>
+				<div>
+					<p>
+						Respond will be shown here... "
+						<span id="activityThreeRespond"></span> "
+					</p>
+				</div>
+			</section>
+
+			<section id="four" class="activity">
+				<h2>Activity-4</h2>
+				<div class="task7">
+					<p>
+						Task 7: Add a submit event listener to a form that prevents the
+						default submission and logs the form data to the console.
+					</p>
+				</div>
+				<hr />
+				<div class="task8">
+					<p>
+						Task 8: Add a change event listener to a select dropdown that
+						displays the selected value in a paragraph.
+					</p>
+				</div>
+				<div class="formContainer">
+					<form id="myForm">
+						<div class="inputField">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" required />
+						</div>
+						<div class="inputField">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" required />
+						</div>
+						<div class="inputField postDeg">
+							<select name="postDeg" id="choices">
+								<option value="MCA">MCA</option>
+								<option value="MBA">MBA</option>
+								<option value="MTech">MTech</option>
+							</select>
+						</div>
+						<button class="btn" type="submit">Submit</button>
+					</form>
+				</div>
+				<div>
+					<p>The form information is...</p>
+					<p class="formInfo"></p>
+					<p class="selectedValue">Selected Value: MCA</p>
+				</div>
+			</section>
+
+			<section id="five" class="activity">
+				<h2>Activity-5</h2>
+				<div class="task9">
+					<p>
+						Task 9: Add a click event listener to a list that logs the text
+						content of the clicked list item using event delegation.
+					</p>
+					<p>
+						"Event delegation is a powerful technique in JavaScript that allows
+						you to attach a single event listener to a parent element and handle
+						events for its child elements. This can be especially useful for
+						lists where you want to manage clicks on dynamically added items."
+					</p>
+				</div>
+				<hr />
+				<div class="task10">
+					<p>
+						Task 10: Add an event listener to a parent element that listens for
+						events from dynamically added child elements.
+					</p>
+				</div>
+				<div class="actFive">
+					<button id="addItem" class="btn">Add Item</button>
+					<ul id="parentList">
+						<li>Initial Item 1</li>
+						<li>Initial Item 2</li>
+						<li>Initial Item 3</li>
+					</ul>
+					<p>Respond will be shown here...<span class="listRespond"></span></p>
+				</div>
+			</section>
+		</main>
+
+		<script src="./dayTenSolutions.js"></script>
+	</body>
+</html>
