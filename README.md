@@ -2,6 +2,10 @@
 
 *Welcome to my JavaScript Mastery repository! This repository documents my journey through a self-imposed 30-day JavaScript challenge. Each day, I will cover a specific topic or work on a project, solving related problems and pushing the solutions here. This is a personal challenge to deepen my understanding and mastery of JavaScript.*
 
+<p align=center>
+  <img src="./image-1.png" alt="JavaScript 30-days Challenge" width="500px"/>
+</p>
+
 - [JavaScript Mastery](#javascript-mastery)
   - [Day 1: Variables and Data Types](#day-1-variables-and-data-types)
   - [Day 2: Operators](#day-2-operators)
