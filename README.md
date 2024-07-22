@@ -3,7 +3,7 @@
 *Welcome to my JavaScript Mastery repository! This repository documents my journey through a self-imposed 30-day JavaScript challenge. Each day, I will cover a specific topic or work on a project, solving related problems and pushing the solutions here. This is a personal challenge to deepen my understanding and mastery of JavaScript.*
 
 <p align=center>
-  <img src="./image.png" alt="JavaScript 30-days Challenge" width="250px"/>
+  <img src="https://assets.leetcode.com/static_assets/others/JS30_GIF.gif" alt="JavaScript 30-days Challenge" width="250px"/>
 </p>
 
 - [JavaScript Mastery](#javascript-mastery)
