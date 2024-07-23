@@ -1,6 +1,6 @@
 <div align="center">
   <img height="60" src="https://img.icons8.com/color/344/javascript.png">
-  <h1>ay 4: Loops</h1>
+  <h1>Day 4: Loops</h1>
 </div>
 
 ---
