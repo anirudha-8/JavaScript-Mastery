@@ -1,4 +1,9 @@
-# Day 10: Event Handling
+<div align="center">
+  <img height="60" src="https://img.icons8.com/color/344/javascript.png">
+  <h1>Day 10: Event Handling</h1>
+</div>
+
+---
 
 ## Tasks/Activities
 

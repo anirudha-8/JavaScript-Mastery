@@ -1,4 +1,9 @@
-# Day 1: Variables and Data Types
+<div align="center">
+  <img height="60" src="https://img.icons8.com/color/344/javascript.png">
+  <h1>Day 1: Variables and Data Types</h1>
+</div>
+
+---
 
 ## Tasks / Activities
 
