@@ -44,7 +44,11 @@ fetchData("Data 1")
     })
     .then((message) => {
         console.log(message);
-    });
+        return fetchData("Data 4");
+    })
+    .then((message) => {
+        console.log(message);
+    })
 
 // ============ Activity 3: Using Async/Await ============ //
 
