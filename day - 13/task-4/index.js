@@ -1,3 +1,4 @@
-const multiply = require('./defaultModule')
+const add = require('./defaultModule')
 
-console.log(multiply(8, 1));
+const result = add(5, 3);
+console.log(`The result of adding 5 and 3 is: ${result}`);
