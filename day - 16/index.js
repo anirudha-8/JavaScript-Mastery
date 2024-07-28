@@ -30,18 +30,21 @@ function sumUpArray(array) {
 console.log("Sum of all array elements is:", sumUpArray(numbers));
 
 // --> task - 4 <-- //
-function maxNumArray(array) {
-    if (n === arr.length - 1) return arr[n];
-    return Math.max(arr[n], maxArray(arr, n + 1));
+function maxNumArray(array, n = 0) {
+    if (n === array.length - 1) return array[n];
+    return Math.max(array[n], maxNumArray(array, n + 1));
 }
-// console.log(maxNumArray(numbers));
+console.log("Maximum number from the array is: ", maxNumArray(numbers));
 
 // ============= Activity 3 : String Manipulation with Recursion ============= //
 
 // --> task - 5 <-- //
 function reverseString(str) {
     if (!str.length) return "";
-    return reverseString(str.substr(1)) + str.charAt(0);
+    // return reverseString(str.substr(1)) + str.charAt(0);
+    // return str.charAt(str.length - 1) + reverseString(str.slice(0, str.length - 1));
+    // return str[str.length - 1] + reverseString(str.slice(0, str.length - 1));
+    return str[str.length - 1].concat(reverseString(str.slice(0, str.length - 1)));
 }
 console.log(reverseString("anirudha"));
 
@@ -49,7 +52,8 @@ console.log(reverseString("anirudha"));
 function isPalindrome(str) {
     if (str.length <= 1) return true;
     if (str.charAt(0) !== str.charAt(str.length - 1)) return false;
-    return isPalindrome(str.substr(1, str.length - 2));
+    // return isPalindrome(str.substr(1, str.length - 2));
+    return isPalindrome(str.slice(1, str.length - 1));
 }
 console.log(isPalindrome("racecar")); // true
 console.log(isPalindrome("hello")); // false
