@@ -10,7 +10,7 @@ console.log(matchJavaScript("I love JavaScript, JavaScript is fun"));
 
 // --> task - 2 <-- //
 const matchDigits = (str) => {
-    const regex = /\d/g;
+    const regex = /\d+/g;
     const match = str.match(regex);
     return match;
 }
