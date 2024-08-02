@@ -37,6 +37,7 @@
   - [Day 28: Project 5 - E-commerce Website](#day-28-project-5---e-commerce-website)
   - [Day 29: Project 6 - Social Media Dashboard](#day-29-project-6---social-media-dashboard)
   - [Day 30: Final - Social Media Dashboard with Full Features](#day-30-final---social-media-dashboard-with-full-features)
+  - [Thanks for visiting 🤗, Feel free to contribute ❤️](#thanks-for-visiting--feel-free-to-contribute-️)
 
 ## Day 1: Variables and Data Types
 
@@ -156,4 +157,8 @@ Develop a social media dashboard that displays user posts, comments, and interac
 
 ## Day 30: Final - Social Media Dashboard with Full Features
 
-Enhance the social media dashboard with additional features like user authentication, profile management, and more.
+Enhance the social media dashboard with additional features like user authentication, profile management, and more
+
+---
+
+## Thanks for visiting 🤗, Feel free to contribute ❤️
