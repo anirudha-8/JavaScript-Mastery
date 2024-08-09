@@ -13,15 +13,31 @@
         -->
 		<h2>LocalStorage Form</h2>
 		<form action="#" id="localStorageForm">
-			<label for="name">Name</label>
-			<input type="text" name="name" id="name" required />
+			<label for="localName">Name</label>
+			<input type="text" name="name" id="localName" required />
 			<br />
 			<br />
-			<label for="email">Email</label>
-			<input type="email" name="email" id="email" required />
+			<label for="loaclEmail">Email</label>
+			<input type="email" name="email" id="localEmail" required />
 			<br />
 			<br />
-			<button type="submit" id="submit">submit</button>
+			<button type="submit" id="localSubmit">submit</button>
+		</form>
+
+		<!--
+			Task 7: Create a simple form that saves user input (e.g., name and email) to sessionStorage when submitted. Retrieve and display the saved data on page load.
+		-->
+		<h2>SessionStorage Form</h2>
+		<form action="#" id="sessionStorageForm">
+			<label for="sessionName">name</label>
+			<input type="text" name="name" id="sessionName" />
+			<br />
+			<br />
+			<label for="sessionEmail">Email</label>
+			<input type="email" name="email" id="sessionEmail" />
+			<br />
+			<br />
+			<button type="submit" id="sessionSubmit">submit</button>
 		</form>
 
 		<script src="./index.js"></script>
